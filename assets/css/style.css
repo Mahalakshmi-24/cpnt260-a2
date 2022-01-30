@@ -43,35 +43,48 @@ body {
     padding: 0px 50px 50px 50px;
 }
 
-.card-layout1 {
+.card-layout1,
+.card-layout2 {
   display: flex;
   gap: 10px;
   margin: 10px;
 }
-.card1{
+.card1,
+.card4 {
   background-color: #db9b98;
 }
-.card2 {
+.card2 ,
+.card5 {
   background-color: #edd39c;
 }
-.card3 {
+.card3 ,
+.card6 {
   background-color: #aaaf98;
 }
 .massage ,
 .medical ,
-.laser {
+.laser,
+.esthetics,
+.micro,
+.body {
   height: 125px;
     width: 125px;
 }
 .card1-btn a, 
 .card2-btn a,
-.card3-btn a {
+.card3-btn a,
+.card4-btn a,
+.card5-btn a,
+.card6-btn a{
   text-decoration: none;
  color: black;
 }
 .card1,
 .card2,
-.card3 {
+.card3,
+.card4,
+.card5,
+.card6 {
 width: 33%;
 text-align: center;
 padding: 10px;
