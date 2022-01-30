@@ -1,3 +1,4 @@
+/***Flex***/
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -18,10 +19,21 @@ body {
   list-style: none;
   gap: 15px;
 
+
   font-size: 24px;
   margin-right: 10px;
   font-family: 'Source Serif 4', sans-serif;
 }
+
+.card-layout1,
+.card-layout2 {
+  display: flex;
+  gap: 35px;
+  margin: 30px;
+  font-family: 'Zilla Slab', serif;
+}
+
+
 /*****font styless*****/
 .nav-links a {
   text-decoration: none;
@@ -45,7 +57,7 @@ body {
 
 .title-container h2 {
   color: ghostwhite;
-    padding: 0px 50px 50px 50px;
+  padding: 0px 50px 50px 50px;
 }
 .content-container {
   font-family: 'Zilla Slab', serif;
@@ -54,19 +66,14 @@ body {
   font-size: 18px;
 }
 
-.card-layout1,
-.card-layout2 {
-  display: flex;
-  gap: 35px;
-  margin: 30px;
-  font-family: 'Zilla Slab', serif;
-}
+
 .card1,
 .card4 {
   background-color: #db9b98;
   box-shadow: 0px 1px 8px black;
   padding: 25px;
 }
+
 .card2  {
   background-color: #edd39c;
   box-shadow: 0px 1px 8px black;
@@ -85,14 +92,7 @@ body {
     width: 125px;
   
 }
-/*.massage:hover,
-.medical:hover ,
-.laser:hover,
-.esthetics:hover,
-.micro:hover,
-.body:hover{
-  transform: scale(1.1);
-}*/
+
 .card1-btn a, 
 .card2-btn a,
 .card3-btn a,
@@ -165,6 +165,8 @@ padding: 20px;
 }
 
 
+
+/***Media query***/
 @media screen and (max-width: 835px) {
   .card-layout1{
     flex-wrap: wrap;
