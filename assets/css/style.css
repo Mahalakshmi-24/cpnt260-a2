@@ -89,3 +89,29 @@ width: 33%;
 text-align: center;
 padding: 10px;
 }
+
+.products {
+  margin: 10px;
+}
+
+.product1,
+.product2 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.product1-content,
+.product2-content {
+  padding: 20px;
+}
+
+.beauty,
+.dermalogica {
+  width: 80%;
+  transition: transform .2s; 
+}
+
+.dermalogica:hover,
+.beauty:hover  {
+  transform: scale(1.1);
+}
