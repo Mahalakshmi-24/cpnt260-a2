@@ -163,3 +163,14 @@ padding: 20px;
   text-align: center;
   padding: 25px;
 }
+
+
+@media screen and (max-width: 835px) {
+  .card-layout1{
+    flex-wrap: wrap;
+  }
+  .product1-content p,
+  .product2-content p{
+    display: none;
+  }
+}
