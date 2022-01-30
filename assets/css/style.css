@@ -27,3 +27,18 @@ body {
   text-decoration: none;
   color: black;
 }
+
+.title-container {
+  background-image: url("/assets/images/spabg.jpg");
+  background-size: cover;
+}
+
+.title-container h1 {
+  padding: 50px 50px 10px 50px;
+  color: ghostwhite;
+}
+
+.title-container h2 {
+  color: ghostwhite;
+    padding: 0px 50px 50px 50px;
+}
