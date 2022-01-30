@@ -45,7 +45,7 @@ body {
   margin-left: 15px;
 }
 .title-container {
-  background-image: url("/assets/images/spabg.jpg");
+  background-image: url("./assets/images/spabg.jpg");
   background-size: cover;
   font-family: 'Source Serif 4', sans-serif;
 }
