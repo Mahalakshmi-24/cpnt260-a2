@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  
+  background-color: bisque;
+}
+
+body {
+  margin: 0px;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;  
+  list-style: none;
+  gap: 15px;
+
+  font-size: 24px;
+  margin-right: 10px;
+  font-family: 'EB Garamond', serif;
+}
+/*****font styless*****/
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
